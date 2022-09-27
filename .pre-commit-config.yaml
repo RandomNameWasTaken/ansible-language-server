@@ -49,12 +49,16 @@ repos:
         files: "codecov.yml"
         pass_filenames: false
   - repo: https://github.com/streetsidesoftware/cspell-cli
+<<<<<<< HEAD
     rev: v6.8.1
+=======
+    rev: v6.8.5
+>>>>>>> bump dependencies
     hooks:
       - id: cspell
         name: Spell check with cspell
   - repo: https://github.com/pre-commit/pre-commit-hooks.git
-    rev: v4.3.0
+    rev: v4.1.0
     hooks:
       - id: end-of-file-fixer
         exclude: >
